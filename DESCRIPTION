@@ -1,9 +1,22 @@
 Package: multiDE
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.5)
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Type: Package
+Title: Differential expression (DE) analysis for RNA-seq data with multiple
+    treatment conditions
+Version: 1.0
+Date: 2016-04-17
+Author: Guangliang Kang, Hong Zhang
+Maintainer: Hong Zhang <zhangh@fudan.edu.cn>
+Depends:
+    R (>= 2.10),
+    edgeR (>= 3.12.1)
+Suggests:
+    DESeq2 (>= 1.10.1),
+    S4Vectors (>= 0.8.11)
+Description: multiDE is an R package for identifying differentially expressed
+    genes between matched or unmatched samples under two or more treatment
+    conditions.
+License: GPL (>= 2)
+Packaged: 2016-04-17 10:13:07 UTC; admin
+RoxygenNote: 5.0.1
+URL: http://github.com/zhanghfd/multiDE
+BugReports: http://github.com/zhanghfd/multiDE/issues
