@@ -24,7 +24,7 @@ Maintainer: Hong Zhang <zhangh@fudan.edu.cn>
 
 }
 \references{
-Kang G., Du L., Zhang H. (2016). multiDE: A dimension reduced model based statistical method for differential expression analysis using RNA-sequencing data with multiple treatment conditions.
+Kang G., Du L., Zhang H. (2016). multiDE: A dimension reduced model based statistical method for differential expression analysis using RNA-sequencing data with multiple treatment conditions. BMC Bioinformatics 67:248.
 }
 
-\keyword{ RNA-seq }  
+\keyword{ RNA-seq }
